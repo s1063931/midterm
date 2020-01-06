@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Noto+Sans+TC&display=swap');
+
+*
+{ 
+    font-family: 'cwTeXYen', sans-serif;
+  
+}
+.card
+{
+  width:100%;
+  box-sizing:border-box;
+  padding-top:30px; 
+
+
+}
+section
+{
+  padding-top:10px;
+  background:#f4edf5;
+}
+.card-body
+{
+  background:#52545e;
+  color:white;
+
+}
+.card-title
+{  
+    font-family: 'Lilita One', cursive;
+}
+.img-thumbnail:hover
+{
+  transform:scale(1.2,1.2);;
+  box-shadow:-20px -25px 15px -15px rgba(0,0,0,0.5);
+  z-index:1;
+}
+.col-sm-5
+{
+  overflow:hidden;
+  
+}
+p
+{
+  font-size:20px;
+}
+.modal-body
+{
+  color:black;
+}
+.modal-title
+{
+  color:black;
+}
